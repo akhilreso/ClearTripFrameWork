@@ -18,7 +18,7 @@ import com.fligthBooking.genrics.BaseLib;
 
 /**
  * @author akhil
- *I done cross browser terting plsese tell me how parlell testing could be done ;
+ *I done cross browser testing plsese tell me how parlell testing could be done ;
  */
 public class TicketBookingTest extends BaseLib {
 	
