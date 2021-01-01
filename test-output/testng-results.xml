@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Test start on Fri Jan 01 19:29:10 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[Round trip is  Salected]]>
+    </line>
+    <line>
+      <![CDATA[Review your itinerary....is varified]]>
+    </line>
+    <line>
+      <![CDATA[Executed ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37494" started-at="2021-01-01T13:59:10Z" finished-at="2021-01-01T13:59:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37494" started-at="2021-01-01T13:59:10Z" finished-at="2021-01-01T13:59:47Z">
+      <class name="com.flightBooking.scripts.TicketBookingTest">
+        <test-method status="PASS" signature="preCondations(java.lang.String, java.lang.String)[pri:0, instance:com.flightBooking.scripts.TicketBookingTest@59fa1d9b]" name="preCondations" is-config="true" duration-ms="11056" started-at="2021-01-01T19:29:10Z" finished-at="2021-01-01T19:29:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cleartrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondations -->
+        <test-method status="PASS" signature="roundTripTicketTest()[pri:0, instance:com.flightBooking.scripts.TicketBookingTest@59fa1d9b]" name="roundTripTicketTest" duration-ms="11730" started-at="2021-01-01T19:29:21Z" finished-at="2021-01-01T19:29:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Round trip is  Salected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roundTripTicketTest -->
+        <test-method status="PASS" signature="selectAndBookFlight()[pri:0, instance:com.flightBooking.scripts.TicketBookingTest@59fa1d9b]" name="selectAndBookFlight" duration-ms="8992" started-at="2021-01-01T19:29:32Z" depends-on-methods="com.flightBooking.scripts.TicketBookingTest.roundTripTicketTest" finished-at="2021-01-01T19:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAndBookFlight -->
+        <test-method status="PASS" signature="ticketBookingVairification()[pri:0, instance:com.flightBooking.scripts.TicketBookingTest@59fa1d9b]" name="ticketBookingVairification" duration-ms="5674" started-at="2021-01-01T19:29:41Z" depends-on-methods="com.flightBooking.scripts.TicketBookingTest.selectAndBookFlight" finished-at="2021-01-01T19:29:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Review your itinerary....is varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ticketBookingVairification -->
+        <test-method status="PASS" signature="postConations()[pri:0, instance:com.flightBooking.scripts.TicketBookingTest@59fa1d9b]" name="postConations" is-config="true" duration-ms="0" started-at="2021-01-01T19:29:47Z" finished-at="2021-01-01T19:29:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Executed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postConations -->
+      </class> <!-- com.flightBooking.scripts.TicketBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

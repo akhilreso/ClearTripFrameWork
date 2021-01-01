@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="bseURL" value="https://www.cleartrip.com/"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.fligthBooking.genrics.MyListner"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="bseURL" value="https://www.cleartrip.com/"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.flightBooking.scripts.TicketBookingTest">
+        <methods>
+          <include name="roundTripTicketTest"/>
+          <include name="postConations"/>
+          <include name="preCondations"/>
+          <include name="selectAndBookFlight"/>
+          <include name="ticketBookingVairification"/>
+        </methods>
+      </class> <!-- com.flightBooking.scripts.TicketBookingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
